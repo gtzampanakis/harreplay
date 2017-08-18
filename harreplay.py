@@ -13,8 +13,6 @@ import urllib
 
 SEP = os.linesep
 
-fn='Archive 17-08-17 22-30-48.har'
-
 def fobj_to_pystring(fobj):
     result_lines = [
         'import requests',
