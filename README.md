@@ -327,9 +327,8 @@ compliant (this means it will be pretty-printed as well).
     )
 
 ### As a module
-    import harreplay
-    print(harreplay.fobj_to_pystring(
-        open('test_data/readme_example.har', 'rb'))
+    >>> import harreplay
+    >>> print(harreplay.fobj_to_pystring(open('test_data/readme_example.har'))
     import requests
     response = requests.post(
         u'http://www.bgtrain.com/',
