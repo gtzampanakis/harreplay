@@ -10,7 +10,7 @@ headers and request body.
 requests using the `requests` module. It can be used as a script or
 programmatically as a Python module.
 
-harreplay should be used with Python 2.7
+harreplay should be used with Python 2.7.
 
 ## Installation
 Just copy the `harreplay.py` file inside your pythonpath.
